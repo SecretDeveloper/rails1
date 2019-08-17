@@ -1,4 +1,7 @@
 Rails.application.configure do
+  #Production creds  - found by running   'bundle exec rake secret'
+  config.secret_key_base = '629e0b684a0f3a7cea6135b7e3853ea46071ae2d482dba8adde66c363ade638179492f15f9b23cd6b7d598e03eda27af88e71369ef0090b17ee4216ca1579613'
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
